@@ -1,6 +1,5 @@
 NTelepathy
 ==========
-
 NTelepathy is C# bindings for the [Telepathy communications framework](http://telepathy.freedesktop.org/).
 Basically, it lets you use Telepathy's features from Mono/.NET. 
 
@@ -10,6 +9,11 @@ Dependencies
 ============
  - [dbus-sharp](http://mono.github.com/dbus-sharp/)
    This can be installed on Ubuntu by running `apt-get install libdbus1.0-cil`
+   
+Compiling
+=========
+
+    xbuild NTelepathy.csproj
 
 Licence
 =======
