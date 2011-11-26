@@ -23,7 +23,9 @@ namespace NTelepathy.Dbus
 		/// Interface for accounts.
 		/// </summary>
 		public const string ACCOUNT_INTERFACE = "org.freedesktop.Telepathy.Account";
-		
+		/// <summary>
+		/// Interface for SimplePresence.
+		/// </summary>
 		public const string SIMPLEPRESENCE_INTERFACE = "org.freedesktop.Telepathy.Connection.Interface.SimplePresence";
 	}
 }
