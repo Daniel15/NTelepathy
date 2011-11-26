@@ -3,18 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTelepathy", "NTelepathy.csproj", "{720E9292-263C-449C-B4FC-C199926DBBCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTelepathy.Example", "NTelepathy.Example\NTelepathy.Example.csproj", "{3BECF4DB-DACD-44FB-9074-C8286E7CCD1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BECF4DB-DACD-44FB-9074-C8286E7CCD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BECF4DB-DACD-44FB-9074-C8286E7CCD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BECF4DB-DACD-44FB-9074-C8286E7CCD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BECF4DB-DACD-44FB-9074-C8286E7CCD1B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{720E9292-263C-449C-B4FC-C199926DBBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{720E9292-263C-449C-B4FC-C199926DBBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{720E9292-263C-449C-B4FC-C199926DBBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{720E9292-263C-449C-B4FC-C199926DBBCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = NTelepathy.csproj
+		StartupItem = NTelepathy.Example\NTelepathy.Example.csproj
 	EndGlobalSection
 EndGlobal

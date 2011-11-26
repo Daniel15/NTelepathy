@@ -1,14 +1,15 @@
 using System;
+using NTelepathy.Dbus;
 using DBus;
 
-namespace NTelepathy.Dbus
+namespace NTelepathy
 {
 	/// <summary>
 	/// Telepathy SimplePresence interface
 	/// </summary>
 	/// <remarks>Reference: http://telepathy.freedesktop.org/spec-0.20/Connection_Interface_Simple_Presence.html</remarks>
-	[Interface("org.freedesktop.Telepathy.Connection.Interface.SimplePresence")]
-	public interface ISimplePresence
+	[Interface(Constants.SIMPLEPRESENCE_INTERFACE)]
+	public interface ISimplePresence : IConnection
 	{
 		/// <summary>
 		/// Sets the current presence
